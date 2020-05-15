@@ -10,8 +10,12 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
 
+    html, body, #root {
+        min-height: 100%;
+    }
+
     body {
-        background: #fafafa;
+        background: ${(props) => props.theme.colors.background};
         -webkit-font-smoothing: antialiased;
     }
 
@@ -21,6 +25,5 @@ export default createGlobalStyle`
 
     #root {
         max-width: 1440px;
-        margin: 0 80px;
     }
 `;
