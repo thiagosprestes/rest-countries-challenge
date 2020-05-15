@@ -23,6 +23,7 @@ export default function Filter({ searchTerm, filterByRegion }) {
         setSelectedRegion(region);
         filterByRegion(region);
         setShowdropdown(false);
+        setSearch('');
     }
 
     return (

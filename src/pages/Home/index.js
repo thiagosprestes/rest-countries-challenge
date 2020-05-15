@@ -26,13 +26,12 @@ export default function Home() {
 
     function handleFilter(data) {
         if (data === '') {
+            setFiltredCountries([]);
             return countries;
         }
-
         const filter = countries.filter((country) => {
             return country.name.toLowerCase().includes(data.toLowerCase());
         });
-
         return setFiltredCountries(filter);
     }
 
