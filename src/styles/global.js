@@ -1,8 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
-
     * {
         margin: 0;
         padding: 0;
@@ -25,5 +23,9 @@ export default createGlobalStyle`
 
     #root {
         max-width: 1440px;
+    }
+
+    ul {
+        list-style: none;
     }
 `;

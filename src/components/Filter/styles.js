@@ -12,6 +12,7 @@ export const Search = styled.div`
     display: flex;
     align-items: center;
     width: 350px;
+    box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.03);
 
     svg {
         position: absolute;
@@ -30,6 +31,8 @@ export const Search = styled.div`
 `;
 
 export const FilterList = styled.div`
+    box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.03);
+
     button {
         display: flex;
         justify-content: space-between;
@@ -56,8 +59,18 @@ export const FilterList = styled.div`
         display: ${(props) => (props.toggleDropdown ? 'block' : 'none')};
         position: absolute;
 
+        box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.03);
+
         li + li {
             margin-top: 20px;
+        }
+
+        li {
+            button {
+                background: none;
+                padding: 0;
+                width: 100%;
+            }
         }
     }
 `;
