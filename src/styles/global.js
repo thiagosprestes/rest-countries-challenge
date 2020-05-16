@@ -28,4 +28,11 @@ export default createGlobalStyle`
     ul {
         list-style: none;
     }
+
+    a, button {
+        text-decoration: none;
+        cursor: pointer;
+        border: 0;
+        border-radius: 4px;
+    }
 `;

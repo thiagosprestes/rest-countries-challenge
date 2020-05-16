@@ -20,8 +20,6 @@ export const Container = styled.header`
         align-items: center;
         background: none;
         color: ${(props) => props.theme.colors.text};
-        border: none;
-        cursor: pointer;
 
         span {
             margin-left: 5px;

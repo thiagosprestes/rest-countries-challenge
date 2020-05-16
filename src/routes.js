@@ -7,8 +7,8 @@ import Country from './pages/Country';
 export default function Routes() {
     return (
         <Switch>
-            <Route to="/" exact component={Home} />
-            <Route to="/:country" component={Country} />
+            <Route path="/" exact component={Home} />
+            <Route path="/country/:name" component={Country} />
         </Switch>
     );
 }

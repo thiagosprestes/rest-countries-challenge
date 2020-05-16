@@ -37,13 +37,10 @@ export const FilterList = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border: 0;
-        border-radius: 4px;
         width: 200px;
         padding: 20px 30px;
         background: ${(props) => props.theme.colors.elements};
         color: ${(props) => props.theme.colors.text};
-        cursor: pointer;
     }
 
     ul {
