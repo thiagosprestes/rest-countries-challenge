@@ -11,7 +11,7 @@ Integrar a API sugerida e mostrar dados dos países como proposto nos designs.
 Poderia ser desenvolvida utilizando um framework/bilioteca front-end como React ou Vue.
 
 **Link do desafio:**
-https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher
+https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca
 
 # Funcionalidades
 
