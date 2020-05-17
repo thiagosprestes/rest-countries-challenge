@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# rest-countries-challenge
+Desafio no frontend que consiste em recriar o visual sugerido de uma aplicação que lista países e suas informações
+>>>>>>> 19515eb270cc2eaa17fb2f5a6d53941a92594335
