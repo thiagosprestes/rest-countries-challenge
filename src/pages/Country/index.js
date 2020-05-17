@@ -21,9 +21,15 @@ export default function Country() {
     const history = useHistory();
 
     async function loadCountry() {
-        const response = await api.get(`/name/${name}`);
+        if (name.length < 4) {
+            const response = await api.get(`/alpha/${name}`);
 
-        setCountry(response.data[0]);
+            setCountry(response.data);
+        } else {
+            const response = await api.get(`/name/${name}`);
+
+            setCountry(response.data[0]);
+        }
     }
 
     useEffect(() => {
