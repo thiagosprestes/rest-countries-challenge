@@ -1,73 +1,34 @@
-<<<<<<< HEAD
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![REST Countries](mockup-template-rest-countries.png)
 
-## Available Scripts
+## Sobre o projeto
 
-In the project directory, you can run:
+Este projeto foi feito baseado em um dos desafios propostos pelo site Frontend Mentor. O desafio consiste em criar uma aplicação que consome a api REST countries e exibe dados de países como moeda utilizada, idiomas e países vizinhos.
 
-### `yarn start`
+## O desafio 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Integrar a API sugerida e mostrar dados dos países como proposto nos designs.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Poderia ser desenvolvida utilizando um framework/bilioteca front-end como React ou Vue.
 
-### `yarn test`
+**Link do desafio:**
+https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Funcionalidades
 
-### `yarn build`
+- Ver todos os países deponíveis na página inicial
+- Procurar por países
+- Filtrar países por continente
+- Ver mais informações de um país clicando sobre seu card
+- Ver mais informações sobre países vizinhos
+- Alterar entre modos escuro e claro
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Ferramentas utilizadas
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* ⚛ **React** - Interface
+* 💅 **Styled Components** - Estilização dos componentes
+* 📡 **Axios** - Requisições a API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Rodando a aplicação
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-=======
-# rest-countries-challenge
-Desafio no frontend que consiste em recriar o visual sugerido de uma aplicação que lista países e suas informações
->>>>>>> 19515eb270cc2eaa17fb2f5a6d53941a92594335
+1. Clone o reposítório utilizando `git clone https://github.com/thiagosprestes/rest-countries-challenge.git`
+2. Rode o comando `yarn start`
