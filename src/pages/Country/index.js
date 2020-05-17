@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useParams, useHistory } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 import { FaArrowLeft } from 'react-icons/fa';
 
@@ -17,8 +17,6 @@ export default function Country() {
     const [country, setCountry] = useState([]);
 
     const { name } = useParams();
-
-    const history = useHistory();
 
     async function loadCountry() {
         if (name.length < 4) {
@@ -97,18 +95,20 @@ export default function Country() {
                     {country.borders && country.borders.length > 0 && (
                         <BorderCountries>
                             <strong>Border Countries: </strong>
-                            {country.borders
-                                ? country.borders.map((border) => {
-                                      return (
-                                          <Link
-                                              to={`/country/${border}`}
-                                              key={border}
-                                          >
-                                              {border}
-                                          </Link>
-                                      );
-                                  })
-                                : ''}{' '}
+                            <div>
+                                {country.borders
+                                    ? country.borders.map((border) => {
+                                          return (
+                                              <Link
+                                                  to={`/country/${border}`}
+                                                  key={border}
+                                              >
+                                                  {border}
+                                              </Link>
+                                          );
+                                      })
+                                    : ''}
+                            </div>
                         </BorderCountries>
                     )}
                 </CountryInfo>

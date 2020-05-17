@@ -9,6 +9,18 @@ export const Container = styled.div`
     div {
         box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.03);
     }
+
+    @media (max-width: 1100px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width: 850px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 650px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 `;
 
 export const CountryFlag = styled.div`

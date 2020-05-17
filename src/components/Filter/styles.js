@@ -6,6 +6,10 @@ export const Container = styled.section`
     align-items: center;
 
     margin: 40px 0;
+
+    @media (max-width: 750px) {
+        flex-direction: column;
+    }
 `;
 
 export const Search = styled.div`
@@ -28,6 +32,10 @@ export const Search = styled.div`
         border-radius: 4px;
         width: 100%;
     }
+
+    @media (max-width: 750px) {
+        width: 100%;
+    }
 `;
 
 export const FilterList = styled.div`
@@ -41,6 +49,11 @@ export const FilterList = styled.div`
         padding: 20px 30px;
         background: ${(props) => props.theme.colors.elements};
         color: ${(props) => props.theme.colors.text};
+
+        @media (max-width: 750px) {
+            width: 100%;
+            margin-top: 20px;
+        }
     }
 
     ul {
@@ -58,6 +71,11 @@ export const FilterList = styled.div`
 
         box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.03);
 
+        @media (max-width: 750px) {
+            width: 100%;
+            position: relative;
+        }
+
         li + li {
             margin-top: 20px;
         }
@@ -69,5 +87,9 @@ export const FilterList = styled.div`
                 width: 100%;
             }
         }
+    }
+
+    @media (max-width: 750px) {
+        width: 100%;
     }
 `;
